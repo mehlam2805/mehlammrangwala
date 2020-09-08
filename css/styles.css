@@ -35,10 +35,12 @@ body {
 }
 
 .profile-pic {
-
 	border-radius: 100%;
 	width:6.25rem;
+}
 
+.profile-pic:hover {
+	width: 25rem;
 }
 
 h1 {
@@ -142,4 +144,48 @@ hr {
 .copyright{
 	color: #EAF6F6;
 	font-size:0.75rem;
+}
+
+/*mobile friendly*/
+
+@media (max-width: 980px){
+
+	.search-img{
+		margin-right: 40%
+	}
+
+	.code-gif{
+		margin-left: 38%
+	}
+
+	.skill-row-head{
+		clear: right;
+		text-align: center;
+	}
+
+	.skill-row-text{
+		clear:right;
+		text-align: center;
+		font-size: 0.8rem;
+	}
+
+	.skill-row-head1{
+		clear: left;
+		text-align: center;
+	}
+
+	.skill-row-text1{
+		clear:left;
+		text-align: center;
+		font-size: 0.8rem;
+	}
+
+	.signature{
+		font-size: 0.6rem;
+	}
+	
+	.top-cloud{
+		margin-top: 125px;
+	}
+
 }
